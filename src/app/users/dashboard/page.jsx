@@ -13,15 +13,11 @@ const Page = async() => {
                 <Image src={user?.image} alt="..." width={150} height={150}
                 className="border-2 border-color-accent rounded-full"/>
 
-                <div className="flex flex-wrap gap-4 py-5 justify-center items-center sm:text-sm flex-col sm:flex-row">
-                    <Link href="/users/dashboard/collection" 
-                    className="bg-color-accent font-bold px-4 py-3 text-xl rounded w-full sm:w-auto text-center">
-                        My Collection
-                    </Link>
-                    <Link href="/users/dashboard/comment" 
-                    className="bg-color-accent font-bold px-4 py-3 text-xl rounded w-full sm:w-auto text-center mt-4 sm:mt-0">
-                        My Comment
-                    </Link>
+            <div className="flex flex-wrap gap-4 py-8">
+                <Link href="/users/dashboard/collection" className="bg-color-accent font-bold px-4 py-3 text-xl rounded">
+                    My Collection</Link>
+                <Link href="/users/dashboard/comment" className="bg-color-accent font-bold px-4 py-3 text-xl rounded">
+                    My Comment</Link>
                 </div>
             </div>
         </section>
