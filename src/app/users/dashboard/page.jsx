@@ -14,9 +14,11 @@ const Page = async() => {
                 className="border-2 border-color-accent rounded-full"/>
 
             <div className="flex flex-wrap gap-4 py-5 justify-center">
-                <Link href="/users/dashboard/collection" className="bg-color-accent font-bold px-4 py-3 text-xl rounded">
+                <Link href="/users/dashboard/collection" 
+                className="bg-color-accent font-bold px-4 py-3 text-xl rounded" style={{ width: "150px" }}>
                     My Collection</Link>
-                <Link href="/users/dashboard/comment" className="bg-color-accent font-bold px-4 py-3 text-xl rounded">
+                <Link href="/users/dashboard/comment" 
+                className="bg-color-accent font-bold px-4 py-3 text-xl rounded" style={{ width: "150px" }}>
                     My Comment</Link>
                 </div>
             </div>

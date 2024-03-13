@@ -58,3 +58,10 @@ img:hover{
       margin-top: 0px;           
   }
 }
+
+@media (max-width: 640px) { 
+  .flex.flex-wrap.gap-4.justify-center {
+    flex-direction: column; 
+    align-items: center; 
+  }
+}
