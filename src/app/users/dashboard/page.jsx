@@ -15,10 +15,10 @@ const Page = async() => {
 
             <div className="flex flex-wrap gap-4 py-5">
                 <Link href="/users/dashboard/collection" 
-                className="bg-color-accent font-bold px-4 py-3 text-xl rounded block w-full md:w-auto text-center md:text-left">
+                className="bg-color-accent font-bold px-4 py-3 text-xl rounded w-full sm:w-auto text-center sm:text-left">
                     My Collection</Link>
                 <Link href="/users/dashboard/comment" 
-                className="bg-color-accent font-bold px-4 py-3 text-xl rounded block w-full md:w-auto text-center md:text-left">
+                className="bg-color-accent font-bold px-4 py-3 text-xl rounded w-full sm:w-auto text-center sm:text-left">
                     My Comment</Link>
                 </div>
             </div>
