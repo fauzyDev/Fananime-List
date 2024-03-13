@@ -13,12 +13,12 @@ const Page = async() => {
                 <Image src={user?.image} alt="..." width={150} height={150}
                 className="border-2 border-color-accent rounded-full"/>
 
-            <div className="flex flex-wrap gap-4 py-5 justify-center">
+            <div className="flex flex-wrap gap-4 py-5">
                 <Link href="/users/dashboard/collection" 
-                className="bg-color-accent font-bold px-4 py-3 text-xl rounded" style={{ width: "150px" }}>
+                className="bg-color-accent font-bold px-4 py-3 text-xl rounded block w-full md:w-auto text-center md:text-left">
                     My Collection</Link>
                 <Link href="/users/dashboard/comment" 
-                className="bg-color-accent font-bold px-4 py-3 text-xl rounded" style={{ width: "150px" }}>
+                className="bg-color-accent font-bold px-4 py-3 text-xl rounded block w-full md:w-auto text-center md:text-left">
                     My Comment</Link>
                 </div>
             </div>
