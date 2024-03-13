@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar'
 const ubuntu = Ubuntu({ weight: "700", subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Anime Spot Light',
+  title: 'Fananime List',
   description: 'Project Web List Anime',
 }
 
