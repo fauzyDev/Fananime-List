@@ -14,12 +14,14 @@ const Page = async() => {
                 className="border-2 border-color-accent rounded-full"/>
 
             <div className="flex flex-wrap gap-4 py-5">
+              <div className="flex">
                 <Link href="/users/dashboard/collection" 
                 className="bg-color-accent font-bold px-4 py-3 text-xl rounded w-1/2 sm:w-auto text-center sm:text-left">
                     My Collection</Link>
                 <Link href="/users/dashboard/comment" 
                 className="bg-color-accent font-bold px-4 py-3 text-xl rounded w-1/2 sm:w-auto text-center sm:text-left">
                     My Comment</Link>
+                    </div>
                 </div>
             </div>
         </section>
