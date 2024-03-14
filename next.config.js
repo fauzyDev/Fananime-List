@@ -16,7 +16,7 @@ const nextConfig = {
             },
             
             {
-                hostname: "scontent.fbdo9-1.fna.fbcdn.net"
+                hostname: "platform-lookaside.fbsbx.com"
             }
         ]
     }
