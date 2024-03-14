@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+'use client'
+
+import { useState } from 'react';
 import prisma from '@/libs/prisma';
 import Image from 'next/image';
 
