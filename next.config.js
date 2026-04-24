@@ -18,13 +18,13 @@ const nextConfig = {
             {
                 hostname: "platform-lookaside.fbsbx.com"
             }
-        ]
+        ]j
     }
 }
 
 module.exports = {
     env: {
-        NEXTAUTH_URL: "http://localhost:3000",
+        NEXTAUTH_URL: "https://fananime-list.vercel.app",
       }
 }
 
