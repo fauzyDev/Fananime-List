@@ -18,7 +18,7 @@ const nextConfig = {
             {
                 hostname: "platform-lookaside.fbsbx.com"
             }
-        ]j
+        ]
     }
 }
 
